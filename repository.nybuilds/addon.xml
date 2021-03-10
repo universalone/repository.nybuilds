@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.nybuilds" name="NY Builds Repo" version="1.0" provider-name="Universal1">
+    <extension point="xbmc.addon.repository" name="NY Builds Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/universalone/repository.nybuilds/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/universalone/repository.nybuilds/master/zips/addons/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/universalone/repository.nybuilds/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>NY Builds Repo</summary>
+        <description>Builds for everyone.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
